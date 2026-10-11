@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <p class="subtitle">SIMPLE, TRANSPARENT PRICING</p>
+        <h1>Choose the right plan for you</h1>
+        <p class="intro">Pick a plan that works best for your needs.</p>
+
+        <section class="pricing-table">
+
+            <article class="card" data-plan="Basic">
+                <div class="card-header">
+                    <h2>Basic</h2>
+                    <p>For getting started</p>
+                </div>
+                <div class="price">
+                    <span class="amount">$9</span><span class="period">/month</span>
+                </div>
+                <p class="description">Everything you need to start your journey.</p>
+                <ul class="features">
+                    <li>✓ 1 project</li>
+                    <li>✓ Basic analytics</li>
+                    <li>✓ Email support</li>
+                    <li>✓ 5GB storage</li>
+                </ul>
+                <button type="button" class="select-button">Choose Basic</button>
+            </article>
+
+            <article class="card popular selected" data-plan="Pro">
+                <span class="popular-badge">Most Popular</span>
+                <div class="card-header">
+                    <h2>Pro</h2>
+                    <p>For growing teams</p>
+                </div>
+                <div class="price">
+                    <span class="amount">$19</span><span class="period">/month</span>
+                </div>
+                <p class="description">More power and flexibility for your growing work.</p>
+                <ul class="features">
+                    <li>✓ 10 projects</li>
+                    <li>✓ Advanced analytics</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ 50GB storage</li>
+                    <li>✓ Team collaboration</li>
+                </ul>
+                <button type="button" class="select-button">Choose Pro</button>
+            </article>
+
+            <article class="card" data-plan="Business">
+                <div class="card-header">
+                    <h2>Business</h2>
+                    <p>For established teams</p>
+                </div>
+                <div class="price">
+                    <span class="amount">$39</span><span class="period">/month</span>
+                </div>
+                <p class="description">Advanced tools for teams that need more control.</p>
+                <ul class="features">
+                    <li>✓ Unlimited projects</li>
+                    <li>✓ Custom analytics</li>
+                    <li>✓ 24/7 support</li>
+                    <li>✓ 200GB storage</li>
+                    <li>✓ Team collaboration</li>
+                    <li>✓ Advanced security</li>
+                </ul>
+                <button type="button" class="select-button">Choose Business</button>
+            </article>
+
+        </section>
+
+        <p class="selection-message" aria-live="polite">Selected plan: <strong id="selected-plan">Pro</strong></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
